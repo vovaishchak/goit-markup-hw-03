@@ -1,0 +1,194 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --white: #ffffff;
+    --dairy: #fcfcfc;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+/* Logo */
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.logo .studio {
+    color: var(--navy-blue);
+}
+
+/* Uls */
+.list {
+    list-style: none;
+}
+
+/* Nav links */
+.link-nav {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.site-nav .current {
+    color: var(--ocean);
+}
+
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+    color: var(--ocean);
+}
+
+.adrs {
+    font-style: normal;
+}
+
+.adrs .link-adrs {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* Address */
+
+.adrs .link-adrs:hover,
+.adrs .link-adrs:focus {
+    color: var(--ocean);
+}
+
+/* Main */
+
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero-title {
+    font-weight: 700;
+    line-height: 1.07;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+    background-color: var(--ocean);
+}
+
+/* Main advantages */
+
+.advantages {
+    color: var(--navy-blue);
+}
+
+.header-two {
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    font-size: 36px;
+    color: var(--navy-blue);
+}
+
+.header-three {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    color: var(--navy-blue);
+}
+
+/* Main team */
+
+.team {
+    background-color: var(--cloud);
+}
+
+.list-point {
+    background-color: var(--white);
+}
+
+/* Footer */
+
+.studio-footer {
+    color: var(--cloud);
+}
+
+.text-footer {
+    color: var(--cloud);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.text {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.foot {
+    background-color: var(--navy-blue);
+}
+
+/*  Portfolio  */
+
+.btn-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    color: var(--iris);
+    background-color: var(--cloud);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+
+.header-portf {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
